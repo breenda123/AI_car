@@ -14,7 +14,7 @@
             background-color: #1a1a1a; /* Nền tối hơn */
             color: #e0e0e0;
             margin: 0;
-            padding: 1rem;
+            padding: 2rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -112,7 +112,7 @@
         .poster-body {
             padding: 3rem;
             display: grid;
-            grid-template-columns: 1fr 1.2fr 1fr;
+            grid-template-columns: 1fr 1fr;
             gap: 2.5rem;
             align-items: stretch; /* Căn các khối theo chiều cao */
             position: relative;
@@ -330,56 +330,50 @@
             </div>
         </header>
 
-        <!-- ==================== BODY ==================== -->
-        <main class="poster-body">
+                <!-- ==================== BODY ==================== -->
+                <main class="poster-body">
             
-            <!-- --- CỘT 1: GIỚI THIỆU --- -->
-            <section class="content-block">
-                <h2>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9H3a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3.17L9.4 2.82A2 2 0 0 1 10.83 2h2.34a2 2 0 0 1 1.43.82L17.83 4H21a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2Z"/><path d="M10.29 16.71a6 6 0 0 0 8.42-8.42"/><path d="M6.83 11.17a6 6 0 0 0 8.42 8.42"/><circle cx="12" cy="12" r="2"/></svg>
-                    Phần 1: Giới thiệu & Ý tưởng
-                </h2>
-                <h3>Bối cảnh và Vấn đề:</h3>
-                <p>Trong bối cảnh xã hội hiện đại, các phương tiện giao thông đóng vai trò thiết yếu nhưng tình hình giao thông phức tạp cùng những rủi ro tiềm ẩn luôn là nỗi lo, thường xuyên gây ra những tai nạn đáng tiếc. Bên cạnh đó, việc vận hành phương tiện trong những môi trường khắc nghiệt, nguy hiểm cũng đe dọa trực tiếp đến sự an toàn của người điều khiển.</p>
-                <h3>Giải pháp và Ý tưởng:</h3>
-                <p>Nhận thấy những thách thức trên, chúng em đề xuất ý tưởng “Xe điều khiển từ xa thông minh”. Đây là mô hình phương tiện vận hành mà không cần người lái trực tiếp. Thay vào đó, xe được điều khiển hoàn toàn qua một phần mềm trên nền tảng Ucode, mở ra hướng đi mới cho việc vận hành phương tiện an toàn và hiệu quả hơn.</p>
-            </section>
-
-            <!-- --- CỘT 2: HÌNH ẢNH --- -->
-            <section class="image-block">
-                <img src="https://placehold.co/400x300/1f2833/f7c548?text=XE+ROBOT" alt="Hình ảnh mô hình xe điều khiển từ xa">
-                <p class="caption">Mô hình "Xe Điều Khiển Từ Xa Thông Minh" - Sản phẩm của tư duy và sáng tạo.</p>
-            </section>
-
-            <!-- --- CỘT 3: MỤC TIÊU & PHẠM VI --- -->
-            <section class="content-block">
-                <h2>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 21v-6a2.5 2.5 0 0 0-5 0v6"/><path d="M13 3.5V2a1.5 1.5 0 0 0-3 0v1.5"/><path d="M18 10a4 4 0 0 0-8 0"/><path d="M12 10v11"/><path d="M18.2 13.8a4 4 0 0 0-8.4 0"/></svg>
-                    Phần 2: Mục tiêu & Phạm vi
-                </h2>
-                <h3>Mục tiêu chính:</h3>
-                <ul>
-                    <li>Thiết kế và lắp ráp thành công mô hình xe.</li>
-                    <li>Lập trình phần mềm điều khiển hiệu quả trên Ucode.</li>
-                    <li>Thử nghiệm và tối ưu hóa mô hình.</li>
-                </ul>
-                <h3>Phạm vi nghiên cứu:</h3>
-                <div class="scope-card wireless">
-                    <h4>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16a5 5 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
-                        Hướng 1: Không dây (Tuấn Lâm)
-                    </h4>
-                    <p>Ứng dụng công nghệ không dây (Bluetooth/Wi-Fi) để đảm bảo sự linh hoạt, cơ động cao.</p>
-                </div>
-                <div class="scope-card">
-                    <h4>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10V6A2 2 0 0 0 16 4H4A2 2 0 0 0 2 6v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"/><path d="M22 12H12"/><path d="m15 9-3 3 3 3"/></svg>
-                        Hướng 2: Có dây (Trung Nghĩa)
-                    </h4>
-                    <p>Tập trung vào sự ổn định, độ trễ thấp qua kết nối có dây, phù hợp cho các tác vụ đòi hỏi độ chính xác cao.</p>
-                </div>
-            </section>
-        </main>
+                    <!-- --- CỘT 1: GIỚI THIỆU --- -->
+                    <section class="content-block">
+                        <h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9H3a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3.17L9.4 2.82A2 2 0 0 1 10.83 2h2.34a2 2 0 0 1 1.43.82L17.83 4H21a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2Z"/><path d="M10.29 16.71a6 6 0 0 0 8.42-8.42"/><path d="M6.83 11.17a6 6 0 0 0 8.42 8.42"/><circle cx="12" cy="12" r="2"/></svg>
+                            Phần 1: Giới thiệu & Ý tưởng
+                        </h2>
+                        <h3>Bối cảnh và Vấn đề:</h3>
+                        <p>Trong bối cảnh xã hội hiện đại, các phương tiện giao thông đóng vai trò thiết yếu nhưng tình hình giao thông phức tạp cùng những rủi ro tiềm ẩn luôn là nỗi lo, thường xuyên gây ra những tai nạn đáng tiếc. Bên cạnh đó, việc vận hành phương tiện trong những môi trường khắc nghiệt, nguy hiểm cũng đe dọa trực tiếp đến sự an toàn của người điều khiển.</p>
+                        <h3>Giải pháp và Ý tưởng:</h3>
+                        <p>Nhận thấy những thách thức trên, chúng em đề xuất ý tưởng “Xe điều khiển từ xa thông minh”. Đây là mô hình phương tiện vận hành mà không cần người lái trực tiếp. Thay vào đó, xe được điều khiển hoàn toàn qua một phần mềm trên nền tảng Ucode, mở ra hướng đi mới cho việc vận hành phương tiện an toàn và hiệu quả hơn.</p>
+                    </section>
+        
+                    <!-- --- CỘT 2: MỤC TIÊU & PHẠM VI --- -->
+                    <section class="content-block">
+                        <h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 21v-6a2.5 2.5 0 0 0-5 0v6"/><path d="M13 3.5V2a1.5 1.5 0 0 0-3 0v1.5"/><path d="M18 10a4 4 0 0 0-8 0"/><path d="M12 10v11"/><path d="M18.2 13.8a4 4 0 0 0-8.4 0"/></svg>
+                            Phần 2: Mục tiêu & Phạm vi
+                        </h2>
+                        <h3>Mục tiêu chính:</h3>
+                        <ul>
+                            <li>Thiết kế và lắp ráp thành công mô hình xe.</li>
+                            <li>Lập trình phần mềm điều khiển hiệu quả trên Ucode.</li>
+                            <li>Thử nghiệm và tối ưu hóa mô hình.</li>
+                        </ul>
+                        <h3>Phạm vi nghiên cứu:</h3>
+                        <div class="scope-card wireless">
+                            <h4>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16a5 5 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                                Hướng 1: Không dây (Tuấn Lâm)
+                            </h4>
+                            <p>Ứng dụng công nghệ không dây (Bluetooth/Wi-Fi) để đảm bảo sự linh hoạt, cơ động cao.</p>
+                        </div>
+                        <div class="scope-card">
+                            <h4>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10V6A2 2 0 0 0 16 4H4A2 2 0 0 0 2 6v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"/><path d="M22 12H12"/><path d="m15 9-3 3 3 3"/></svg>
+                                Hướng 2: Có dây (Trung Nghĩa)
+                            </h4>
+                            <p>Tập trung vào sự ổn định, độ trễ thấp qua kết nối có dây, phù hợp cho các tác vụ đòi hỏi độ chính xác cao.</p>
+                        </div>
+                    </section>
+                </main>
 
         <!-- ==================== FOOTER ==================== -->
         <footer class="poster-footer">
@@ -412,4 +406,3 @@
 
 </body>
 </html>
-
